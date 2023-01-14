@@ -18,5 +18,7 @@ def test_tabla(tabla):
 
 
 def test_calcular_letra(tabla):
-    assert 'F' == tabla.calcularLetra(45608961)
-    assert 'D' == tabla.calcularLetra(45371902)
+    assert 'F' == tabla.calcularLetra('45608961')
+    assert 'D' == tabla.calcularLetra('45371902')
+
+
