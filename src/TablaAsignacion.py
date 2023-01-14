@@ -11,5 +11,5 @@ class TablaAsignacion:
         return self.tabla[posicion]
 
     def calcularLetra(self, DNI):
-        posicion = DNI % self.getNumeroDivisoresDNI()
+        posicion = int(DNI) % self.getNumeroDivisoresDNI()
         return self.getLetra(posicion)
